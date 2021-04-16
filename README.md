@@ -1,7 +1,7 @@
 # Tuya-weichat-socket<br> 
 涂鸦微信SDK开发<br>  
 --------------------------------------<br> 
-Please don't call me Ultraman
+
 根据涂鸦智能开发的插排-微信小程序<br>
 项目更新中....<br>
 如果程序在Github上下载不全，请尝试下载Tuya-weichat-socket-the light.zip<br> 
