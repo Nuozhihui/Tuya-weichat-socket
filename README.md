@@ -10,7 +10,7 @@ By.点灯专业大师<br>
 
 
 --------------------------------------<br> 
-Please don't call me Ultraman
+
 According to the development of graffiti intelligent insert row - WeChat small program<br> 
 Project update....<br>
 If the program is not fully available on GitHub, please try downloading it Tuya-weichat-socket-the light.zip<br> 
