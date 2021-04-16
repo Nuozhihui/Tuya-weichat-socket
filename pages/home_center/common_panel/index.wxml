@@ -1,0 +1,60 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+
+
+
+<!--HYM-->
+
+<image style="position: absolute; left: 3rpx; top: 43rpx"  class="common-panel-backgroud" />
+<navbar device_name="智能插座Y" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+<!--顶部 大图标-->
+
+<view class='top_col' style="position: fixed; left: 0rpx; top: 300rpx; width: 750rpx; height: 631rpx; display: flex; box-sizing: border-box">
+	<view class='top_block'>
+    <image class="top_image" src='/image/Tuya-chazuo.png' style="width: 408rpx; height: 401rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: 3rpx"></image>
+    <view class="top_content" style="width: 408rpx; height: 110rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: 36rpx">已打开</view>
+	</view>
+</view>
+<view class="top_YXRime" style="width: 690rpx; height: 94rpx; display: flex; box-sizing: border-box; position: relative; left: 10rpx; top: 746rpx">运行时长:0时0分0秒</view>
+
+<!--中间 电压 功率 电流-->
+
+<view class='center_col' style="position: fixed; left: 3rpx; top: 954rpx; width: 750rpx; height: 200rpx; display: flex; box-sizing: border-box">
+  
+  <!--电压 -->
+	<view class='center_block'>
+    <view style="width: 136rpx; height: 61rpx; display: block; box-sizing: border-box; position: relative; left: 15rpx; top: 64rpx">电压</view>
+    <view style="width: 136rpx; height: 61rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 83rpx">220.0v</view>
+  </view>
+  <!--功率 -->
+	<view class='center_block' style="position: relative; left: 0rpx; top: 0rpx">
+    <view style="width: 136rpx; height: 61rpx; display: block; box-sizing: border-box; position: relative; left: 22rpx; top: 64rpx">功率</view>
+    <view style="width: 136rpx; height: 75rpx; display: block; box-sizing: border-box; position: relative; left: 19rpx; top: 85rpx">0.0w</view>
+  </view>
+  <!--电流-->
+	<view class='center_block' style="width: 162rpx; height: 190rpx; display: flex; box-sizing: border-box">
+    <view style="width: 136rpx; height: 61rpx; display: block; box-sizing: border-box; position: relative; left: 8rpx; top: 59rpx">电流</view>
+    <view style="position: relative; left: -15rpx; top: 85rpx">0mA</view>
+	</view>
+</view>
+
+<!--底部 按钮-->
+<view class='bottom_col' style="position: fixed; left: 0rpx; top: 1205rpx; width: 750rpx; height: 202rpx; display: flex; box-sizing: border-box">
+	<view class='bottom_block'>
+		<image hover-class="bottom_image_hover" class="bottom_image" src='/image/Tuya-kaiguan.PNG' style="width: 71rpx; height: 73rpx; display: flex; box-sizing: border-box"></image>
+		<view style="position: relative; left: 0rpx; top: 5rpx">开关</view>
+	</view>
+	<view class='bottom_block'>
+		<image class="bottom_image" src='/image/Tuya-daojishi.png'></image>
+		<view style="width: 127rpx; height: 71rpx; display: block; box-sizing: border-box; position: relative; left: 8rpx; top: 0rpx">倒计时</view>
+	</view>
+	<view class='bottom_block'>
+		<image class="bottom_image" src='/image/Tuya-dingshi.png'></image>
+		<view>定时</view>
+  </view>
+  <view class='bottom_block'>
+		<image class="bottom_image" src='/image/Tuya-dianliang.png'></image>
+		<view>电量</view>
+  </view>
+  
+</view>
