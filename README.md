@@ -9,6 +9,6 @@
 
 --------------------------------------<br> 
 According to the development of graffiti intelligent insert row - WeChat small program<br> 
-Project update....(<br>)  
+Project update....<br>
 If the program is not fully available on GitHub, please try downloading it Tuya-weichat-socket-the light.zip<br> 
 ![WL`7 V48XL(9~LHLP{YWRFC](https://user-images.githubusercontent.com/49518571/114995538-84015c80-9ed0-11eb-9a2c-c394afdf12ba.png)<br> 
